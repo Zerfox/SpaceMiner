@@ -281,7 +281,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 269835169}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.000081, y: -0.000051, z: 0}
+  m_LocalPosition: {x: 0.000081, y: -0.000051, z: -0.5}
   m_LocalScale: {x: 3.1824117, y: 2.9585948, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -627,7 +627,7 @@ GameObject:
   - component: {fileID: 627018942}
   - component: {fileID: 627018941}
   m_Layer: 0
-  m_Name: "\u042D\u043A\u0440\u0430\u043D"
+  m_Name: Scren
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -887,7 +887,7 @@ GameObject:
   - component: {fileID: 750307076}
   - component: {fileID: 750307075}
   m_Layer: 0
-  m_Name: GG
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1625,7 +1625,7 @@ GameObject:
   - component: {fileID: 2072538824}
   - component: {fileID: 2072538825}
   m_Layer: 0
-  m_Name: right right
+  m_Name: right_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
