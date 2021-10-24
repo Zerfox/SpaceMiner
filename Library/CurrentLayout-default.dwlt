@@ -225,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 46
+  controlID: 88
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 47
+  controlID: 89
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -316,13 +316,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - "Assets/Materials/\u044E\u0430\u0439"
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - "Assets/Materials/\u044E\u0430\u0439"
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "A:\\GameDev\\\u041C\u0430\u0439\u043D\u0435\u0440\\\u0421\u0430\u043C
     \u043C\u0430\u0439\u043D\u0435\u0440\\SpaceMiner"
@@ -330,8 +330,8 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d4400000
-    m_LastClickedID: 16596
+    m_SelectedIDs: e4400000
+    m_LastClickedID: 16612
     m_ExpandedIDs: 00000000ce400000d440000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -483,7 +483,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 40fbffff
+      m_ExpandedIDs: eef7ffff40fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -499,7 +499,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 4}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -543,9 +543,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.41545865, y: -0.020593941, z: -11.110659}
+    m_Target: {x: 2.6526816, y: -0.124101706, z: -10.6746435}
     speed: 2
-    m_Value: {x: -0.52010673, y: -0.0242983, z: -11.08695}
+    m_Value: {x: 2.8577037, y: -0.20744406, z: -10.631972}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -596,9 +596,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 6.289174
+    m_Target: 11.319738
     speed: 2
-    m_Value: 6.5855227
+    m_Value: 11.853129
   m_Ortho:
     m_Target: 1
     speed: 2
