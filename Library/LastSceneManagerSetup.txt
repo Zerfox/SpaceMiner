@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Materials/Dock.unity
+- path: Assets/Scens/SampleScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

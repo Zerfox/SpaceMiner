@@ -1,26 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 
 public class Player : MonoBehaviour
 {
     Rigidbody2D rb;
     public float powerPulce = 1f;
-    /*GameObject LeftDotObject;
-    Transform LeftBattonPosition;
-    GameObject RighDotObject;
-    Transform RightBattonPosition;
-    GameObject UpDotObject;
-    Transform UpBattonPosition;
-    GameObject DownDotObject;
-    Transform DownBattonPosition;*/
-
-    
+    private bool isDown;
 
     private void Start()
     {
-      rb = GetComponent<Rigidbody2D>();
+       rb = GetComponent<Rigidbody2D>();
+        
     }
 
     private void Update()
@@ -41,9 +34,13 @@ public class Player : MonoBehaviour
         {
             DownImpulce();
         }
+        if (!this.isDown) return;
+        {
+            rb.drag = 2;
+        }
     }
   /// <summary>
-  /// Скрипт движения персонажа
+  /// Кнопки движения персонажа по Х и У осям
   /// </summary>  
     public void RightImpulce()
     {
@@ -61,4 +58,14 @@ public class Player : MonoBehaviour
     {
         rb.AddForce(Vector3.down * powerPulce);
     }
+    /// <summary>
+    /// Кнопка остановки 
+    /// </summary>
+    public void StopButton()
+    {
+        rb.drag = 2;
+
+
+    }
 }
+
