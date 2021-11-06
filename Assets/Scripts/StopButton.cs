@@ -10,7 +10,6 @@ public class StopButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     bool isDown;
     [SerializeField]
     public float PowerStop = 3;
-    // Start is called before the first frame update
     private void Awake()
     {
         GameObjectPlayer = GameObject.Find("Player");
